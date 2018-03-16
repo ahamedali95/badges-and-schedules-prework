@@ -16,11 +16,11 @@ end
 
 def assign_rooms(list_of_names)
   room_assignments = [];
-  
+
   list_of_names.each_with_index do |name,  idx|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{idx + 1}!"
   end
-  
+
   room_assignments
 end
 
@@ -35,5 +35,5 @@ def printer(attendees)
   room_assignments.each do |room_assignment|
     puts room_assignment
   end
-    
+
 end
